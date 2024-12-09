@@ -1,4 +1,5 @@
 import { Link, Outlet } from "react-router-dom"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "@/components/Header/Header"
 import Footer from "@/components/Footer/Footer"
 
@@ -14,6 +15,9 @@ const App = () => {
           </li>
           <li>
             <Link to="/product-detail">Product Detail</Link>
+          </li>
+          <li>
+            <Link to="/search-page">Search Page</Link>
           </li>
         </ul>
       </nav>

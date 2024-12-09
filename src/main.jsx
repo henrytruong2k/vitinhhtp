@@ -1,6 +1,7 @@
 import '@/index.css';
 import Home from '@/pages/Home/Home';
 import ProductDetail from '@/pages/ProductDetail/ProductDetail.jsx';
+import SearchPage from '@/pages/Search/SearchPage.jsx';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
@@ -21,7 +22,12 @@ const router = createBrowserRouter([
       {
         path: "/product-detail",
         element: <ProductDetail />
+      },
+      {
+        path: "/search-page",
+        element: <SearchPage/>
       }
+
     ]
   },
 ]);
